@@ -17,6 +17,12 @@
 		DD78C8302119A4290042098F /* DiffrentCustomTabBarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD78C82F2119A4290042098F /* DiffrentCustomTabBarUITests.m */; };
 		DD78C83F2119A49E0042098F /* RootTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD78C83E2119A49E0042098F /* RootTabBarViewController.m */; };
 		DD78C8422119A4B80042098F /* CustomTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = DD78C8412119A4B80042098F /* CustomTabBar.m */; };
+		DD78C8462119A81D0042098F /* BaseNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD78C8452119A81D0042098F /* BaseNavViewController.m */; };
+		DD78C84C2119A9AD0042098F /* UIViewExt.m in Sources */ = {isa = PBXBuildFile; fileRef = DD78C84B2119A9AD0042098F /* UIViewExt.m */; };
+		DD78C84F2119A9B50042098F /* UIView+TYCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD78C84E2119A9B50042098F /* UIView+TYCViewController.m */; };
+		DD78C8522119A9ED0042098F /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = DD78C8502119A9ED0042098F /* UIColor+Hex.m */; };
+		DD78C8572119A9FA0042098F /* NSArray+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = DD78C8532119A9F90042098F /* NSArray+Extension.m */; };
+		DD78C8582119A9FA0042098F /* NSDictionary+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = DD78C8562119A9FA0042098F /* NSDictionary+Extension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +63,21 @@
 		DD78C83E2119A49E0042098F /* RootTabBarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootTabBarViewController.m; sourceTree = "<group>"; };
 		DD78C8402119A4B80042098F /* CustomTabBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomTabBar.h; sourceTree = "<group>"; };
 		DD78C8412119A4B80042098F /* CustomTabBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomTabBar.m; sourceTree = "<group>"; };
+		DD78C8442119A81D0042098F /* BaseNavViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseNavViewController.h; sourceTree = "<group>"; };
+		DD78C8452119A81D0042098F /* BaseNavViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseNavViewController.m; sourceTree = "<group>"; };
+		DD78C8472119A85C0042098F /* DiffrentCustomTabBar.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DiffrentCustomTabBar.pch; sourceTree = "<group>"; };
+		DD78C8492119A8DB0042098F /* RuleMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RuleMacros.h; sourceTree = "<group>"; };
+		DD78C84A2119A9AD0042098F /* UIViewExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewExt.h; sourceTree = "<group>"; };
+		DD78C84B2119A9AD0042098F /* UIViewExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewExt.m; sourceTree = "<group>"; };
+		DD78C84D2119A9B50042098F /* UIView+TYCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TYCViewController.h"; sourceTree = "<group>"; };
+		DD78C84E2119A9B50042098F /* UIView+TYCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TYCViewController.m"; sourceTree = "<group>"; };
+		DD78C8502119A9ED0042098F /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
+		DD78C8512119A9ED0042098F /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
+		DD78C8532119A9F90042098F /* NSArray+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Extension.m"; sourceTree = "<group>"; };
+		DD78C8542119A9FA0042098F /* NSArray+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Extension.h"; sourceTree = "<group>"; };
+		DD78C8552119A9FA0042098F /* NSDictionary+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Extension.h"; sourceTree = "<group>"; };
+		DD78C8562119A9FA0042098F /* NSDictionary+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Extension.m"; sourceTree = "<group>"; };
+		DD78C8592119AA460042098F /* HeaderFile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HeaderFile.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,10 +132,9 @@
 				DD78C80C2119A41D0042098F /* AppDelegate.m */,
 				DD78C80E2119A41D0042098F /* ViewController.h */,
 				DD78C80F2119A41D0042098F /* ViewController.m */,
-				DD78C83D2119A49E0042098F /* RootTabBarViewController.h */,
-				DD78C83E2119A49E0042098F /* RootTabBarViewController.m */,
-				DD78C8402119A4B80042098F /* CustomTabBar.h */,
-				DD78C8412119A4B80042098F /* CustomTabBar.m */,
+				DD78C8472119A85C0042098F /* DiffrentCustomTabBar.pch */,
+				DD78C8482119A8C50042098F /* Tools */,
+				DD78C8432119A7D60042098F /* Base */,
 				DD78C8112119A41D0042098F /* Main.storyboard */,
 				DD78C8142119A4290042098F /* Assets.xcassets */,
 				DD78C8162119A4290042098F /* LaunchScreen.storyboard */,
@@ -140,6 +160,38 @@
 				DD78C8312119A4290042098F /* Info.plist */,
 			);
 			path = DiffrentCustomTabBarUITests;
+			sourceTree = "<group>";
+		};
+		DD78C8432119A7D60042098F /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				DD78C83D2119A49E0042098F /* RootTabBarViewController.h */,
+				DD78C83E2119A49E0042098F /* RootTabBarViewController.m */,
+				DD78C8402119A4B80042098F /* CustomTabBar.h */,
+				DD78C8412119A4B80042098F /* CustomTabBar.m */,
+				DD78C8442119A81D0042098F /* BaseNavViewController.h */,
+				DD78C8452119A81D0042098F /* BaseNavViewController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		DD78C8482119A8C50042098F /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				DD78C8492119A8DB0042098F /* RuleMacros.h */,
+				DD78C8592119AA460042098F /* HeaderFile.h */,
+				DD78C84D2119A9B50042098F /* UIView+TYCViewController.h */,
+				DD78C84E2119A9B50042098F /* UIView+TYCViewController.m */,
+				DD78C84A2119A9AD0042098F /* UIViewExt.h */,
+				DD78C84B2119A9AD0042098F /* UIViewExt.m */,
+				DD78C8512119A9ED0042098F /* UIColor+Hex.h */,
+				DD78C8502119A9ED0042098F /* UIColor+Hex.m */,
+				DD78C8542119A9FA0042098F /* NSArray+Extension.h */,
+				DD78C8532119A9F90042098F /* NSArray+Extension.m */,
+				DD78C8552119A9FA0042098F /* NSDictionary+Extension.h */,
+				DD78C8562119A9FA0042098F /* NSDictionary+Extension.m */,
+			);
+			path = Tools;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -272,11 +324,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD78C84F2119A9B50042098F /* UIView+TYCViewController.m in Sources */,
+				DD78C84C2119A9AD0042098F /* UIViewExt.m in Sources */,
 				DD78C83F2119A49E0042098F /* RootTabBarViewController.m in Sources */,
 				DD78C8102119A41D0042098F /* ViewController.m in Sources */,
+				DD78C8522119A9ED0042098F /* UIColor+Hex.m in Sources */,
 				DD78C81B2119A4290042098F /* main.m in Sources */,
+				DD78C8572119A9FA0042098F /* NSArray+Extension.m in Sources */,
 				DD78C8422119A4B80042098F /* CustomTabBar.m in Sources */,
 				DD78C80D2119A41D0042098F /* AppDelegate.m in Sources */,
+				DD78C8462119A81D0042098F /* BaseNavViewController.m in Sources */,
+				DD78C8582119A9FA0042098F /* NSDictionary+Extension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -447,6 +505,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 832LY843KW;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = DiffrentCustomTabBar/DiffrentCustomTabBar.pch;
 				INFOPLIST_FILE = DiffrentCustomTabBar/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -464,6 +524,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 832LY843KW;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = DiffrentCustomTabBar/DiffrentCustomTabBar.pch;
 				INFOPLIST_FILE = DiffrentCustomTabBar/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
