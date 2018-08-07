@@ -63,13 +63,33 @@
 
 - (void)buttonAction:(UIButton *)button{
     self.selectedIndex = 2;//关联中间按钮
+    if (self.selectItem != 2){
+        [self rotationAnimation];
+    }
     self.selectItem = 2;
 }
 
 //tabbar选择时的代理
 - (void)tabBarController:(UITabBarController *)tabBarController didSelectViewController:(UIViewController *)viewController{
+    if (tabBarController.selectedIndex == 2){//选中中间的按钮
+        if (self.selectItem != 2){
+            [self rotationAnimation];
+        }
+    }else {
+        [_customTabBar.centerBtn.layer removeAllAnimations];
+    }
     self.selectItem = tabBarController.selectedIndex;
 }
+
+//旋转动画
+- (void)rotationAnimation{
+    CABasicAnimation *rotationAnimation = [CABasicAnimation animationWithKeyPath:@"transform.rotation.z"];
+    rotationAnimation.toValue = [NSNumber numberWithFloat:M_PI*2.0];
+    rotationAnimation.duration = 3.0;
+    rotationAnimation.repeatCount = HUGE;
+    [_customTabBar.centerBtn.layer addAnimation:rotationAnimation forKey:@"key"];
+}
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
