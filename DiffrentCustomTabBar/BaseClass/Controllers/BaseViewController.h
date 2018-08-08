@@ -16,5 +16,6 @@
 @property (nonatomic, assign) BOOL isBackButton;
 - (void)hideNavigationBarShadowLine:(BOOL)hide;
 -(void)setNavigationBarTitle:(NSString *)title;
-
+- (void)popdAlertViewIsAlertStyleWithTitle:(NSString *)title withMessage:(NSString *)message;
+- (void)popdAlertViewIsActionSheetStyleWithTitle:(NSString *)title withMessage:(NSString *)message;
 @end

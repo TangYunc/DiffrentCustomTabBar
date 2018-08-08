@@ -149,7 +149,6 @@
     label.textAlignment = NSTextAlignmentCenter;
     self.tabBarLabel = label;
     [view addSubview:label];
-    
 }
 
 -(void)addTabBarButton:(UITabBarItem *)item
@@ -166,22 +165,17 @@
     // 添加按钮的监听事件
     [tabBarButton addTarget:self action:@selector(btnOnClick:) forControlEvents:UIControlEventTouchDown];
     
-    
     // 3.添加选项卡到自定义的tabBar上
     [self addSubview:tabBarButton];
     
     // 4.添加当前的按钮到数组中
     [self.tabBarButtons addObject:tabBarButton];
     
-    
     // 5.判断是否是第一个按钮
     if (self.tabBarButtons.count == 1) {
         // 第一个按钮
         [self btnOnClick:tabBarButton];
     }
-    
-    
-    
 }
 
 #pragma mark -- 按钮事件
@@ -223,26 +217,25 @@
     }
     
 }
-- (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex
-{
-    switch (buttonIndex) {
-        case 0:
-            NSLog(@"点击了取消，不做处理");
-            break;
-            
-        case 1:
-            NSLog(@"点击了确定,通知代理");
-            // 通知代理
-            if ([self.delegate respondsToSelector:@selector(tabBarPresentViewController:)]) {
-                [self.delegate tabBarPresentViewController:self];
-            }
-            break;
-        default:
-            break;
-    }
+
+- (void)popdAlertViewIsAlertStyleWithTitle:(NSString *)title withMessage:(NSString *)message {
+    
+    //弹出alert视图提示输入账号密码
+    UIAlertController *alert = [UIAlertController alertControllerWithTitle:title message:message preferredStyle:UIAlertControllerStyleAlert];
+    UIAlertAction *cancel = [UIAlertAction actionWithTitle:@"取消" style:UIAlertActionStyleCancel handler:^(UIAlertAction * _Nonnull action) {
+        NSLog(@"你点击了alert的取消按钮!");
+    }];
+    UIAlertAction *confirm = [UIAlertAction actionWithTitle:@"确定" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
+        // 通知代理
+        if ([self.delegate respondsToSelector:@selector(tabBarPresentViewController:)]) {
+            [self.delegate tabBarPresentViewController:self];
+        }
+    }];
+    [alert addAction:cancel];
+    [alert addAction:confirm];
+    
+    [self.viewControler presentViewController:alert animated:YES completion:nil];
 }
-
-
 
 
 #pragma mark - tabBarButtons的懒加载

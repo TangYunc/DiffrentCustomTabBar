@@ -68,8 +68,6 @@
         //02 消息
         ViewController *messageVC = [[ViewController alloc] init];
         messageVC.view.backgroundColor = [UIColor whiteColor];
-        //        CounselingViewController *counselingVC = [[CounselingViewController alloc] init];
-        //        counselingVC.view.backgroundColor = [UIColor whiteColor];
         [self addOneChildViewController:messageVC title:@"消息" norImage:@"CounselingNormal" selectedImage:@"CounselingSelected"];
         //03 采购料单
         ViewController *purchaseVC = [[ViewController alloc] init];
@@ -103,7 +101,7 @@
     
 }
 
-#pragma mark - YDTabBarDelegate
+#pragma mark - CustomSecondTabBarDelegate
 -(void)tabBar:(CustomSecondTabBar *)tabBar from:(NSInteger)from to:(NSInteger)to
 {
     NSLog(@"%zd",to);
@@ -114,6 +112,7 @@
 -(void)tabBarPresentViewController:(CustomSecondTabBar *)tabBar{
     
 }
+
 -(void)selectTabItem:(NSInteger)index{
     NSLog(@"index:%ld",(long)index);
 }
