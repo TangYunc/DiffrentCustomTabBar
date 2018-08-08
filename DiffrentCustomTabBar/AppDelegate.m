@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "RootTabBarViewController.h"
+#import "RootTabBarSecondViewController.h"
 
 @interface AppDelegate ()
 
@@ -20,7 +21,8 @@
     // Override point for customization after application launch.
     self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
     self.window.backgroundColor = [UIColor whiteColor];
-    RootTabBarViewController * m = [[RootTabBarViewController alloc]init];
+    RootTabBarSecondViewController * m = [[RootTabBarSecondViewController alloc]init];
+//    RootTabBarViewController * m = [[RootTabBarViewController alloc]init];
     CATransition *anim = [CATransition animation];
     anim.type = @"fade";
     anim.duration = 0.5;

@@ -11,4 +11,4 @@
 #import "UIColor+Hex.h"
 #import "NSDictionary+Extension.h"
 #import "UIView+TYCViewController.h"
-
+#import "UIImage+Extension.h"

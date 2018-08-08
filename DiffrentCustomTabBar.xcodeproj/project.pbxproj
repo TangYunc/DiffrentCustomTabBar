@@ -23,6 +23,14 @@
 		DD78C8522119A9ED0042098F /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = DD78C8502119A9ED0042098F /* UIColor+Hex.m */; };
 		DD78C8572119A9FA0042098F /* NSArray+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = DD78C8532119A9F90042098F /* NSArray+Extension.m */; };
 		DD78C8582119A9FA0042098F /* NSDictionary+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = DD78C8562119A9FA0042098F /* NSDictionary+Extension.m */; };
+		DD78C85D211A77F50042098F /* RootTabBarSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD78C85C211A77F50042098F /* RootTabBarSecondViewController.m */; };
+		DD78C860211A78530042098F /* BaseNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD78C85F211A78530042098F /* BaseNavigationViewController.m */; };
+		DD78C863211A78690042098F /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD78C862211A78690042098F /* BaseViewController.m */; };
+		DD78C866211A78990042098F /* CustomSecondTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = DD78C865211A78990042098F /* CustomSecondTabBar.m */; };
+		DD78C869211A79D60042098F /* CustomSecondBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = DD78C868211A79D60042098F /* CustomSecondBarButton.m */; };
+		DD78C86C211A7AA70042098F /* CenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD78C86B211A7AA70042098F /* CenterViewController.m */; };
+		DD78C86F211A7CCF0042098F /* NavigationBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = DD78C86E211A7CCF0042098F /* NavigationBarView.m */; };
+		DD78C872211A7DD70042098F /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = DD78C871211A7DD70042098F /* UIImage+Extension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,6 +86,22 @@
 		DD78C8552119A9FA0042098F /* NSDictionary+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Extension.h"; sourceTree = "<group>"; };
 		DD78C8562119A9FA0042098F /* NSDictionary+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Extension.m"; sourceTree = "<group>"; };
 		DD78C8592119AA460042098F /* HeaderFile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HeaderFile.h; sourceTree = "<group>"; };
+		DD78C85B211A77F50042098F /* RootTabBarSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootTabBarSecondViewController.h; sourceTree = "<group>"; };
+		DD78C85C211A77F50042098F /* RootTabBarSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootTabBarSecondViewController.m; sourceTree = "<group>"; };
+		DD78C85E211A78530042098F /* BaseNavigationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseNavigationViewController.h; sourceTree = "<group>"; };
+		DD78C85F211A78530042098F /* BaseNavigationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationViewController.m; sourceTree = "<group>"; };
+		DD78C861211A78690042098F /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		DD78C862211A78690042098F /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		DD78C864211A78990042098F /* CustomSecondTabBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomSecondTabBar.h; sourceTree = "<group>"; };
+		DD78C865211A78990042098F /* CustomSecondTabBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomSecondTabBar.m; sourceTree = "<group>"; };
+		DD78C867211A79D60042098F /* CustomSecondBarButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomSecondBarButton.h; sourceTree = "<group>"; };
+		DD78C868211A79D60042098F /* CustomSecondBarButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomSecondBarButton.m; sourceTree = "<group>"; };
+		DD78C86A211A7AA70042098F /* CenterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CenterViewController.h; sourceTree = "<group>"; };
+		DD78C86B211A7AA70042098F /* CenterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CenterViewController.m; sourceTree = "<group>"; };
+		DD78C86D211A7CCF0042098F /* NavigationBarView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NavigationBarView.h; sourceTree = "<group>"; };
+		DD78C86E211A7CCF0042098F /* NavigationBarView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NavigationBarView.m; sourceTree = "<group>"; };
+		DD78C870211A7DD70042098F /* UIImage+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extension.h"; sourceTree = "<group>"; };
+		DD78C871211A7DD70042098F /* UIImage+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,7 +156,10 @@
 				DD78C80C2119A41D0042098F /* AppDelegate.m */,
 				DD78C80E2119A41D0042098F /* ViewController.h */,
 				DD78C80F2119A41D0042098F /* ViewController.m */,
+				DD78C86A211A7AA70042098F /* CenterViewController.h */,
+				DD78C86B211A7AA70042098F /* CenterViewController.m */,
 				DD78C8472119A85C0042098F /* DiffrentCustomTabBar.pch */,
+				DD78C85A211A777A0042098F /* BaseClass */,
 				DD78C8482119A8C50042098F /* Tools */,
 				DD78C8432119A7D60042098F /* Base */,
 				DD78C8112119A41D0042098F /* Main.storyboard */,
@@ -165,12 +192,8 @@
 		DD78C8432119A7D60042098F /* Base */ = {
 			isa = PBXGroup;
 			children = (
-				DD78C83D2119A49E0042098F /* RootTabBarViewController.h */,
-				DD78C83E2119A49E0042098F /* RootTabBarViewController.m */,
-				DD78C8402119A4B80042098F /* CustomTabBar.h */,
-				DD78C8412119A4B80042098F /* CustomTabBar.m */,
-				DD78C8442119A81D0042098F /* BaseNavViewController.h */,
-				DD78C8452119A81D0042098F /* BaseNavViewController.m */,
+				DD78C876211A7E900042098F /* Views */,
+				DD78C875211A7E8D0042098F /* Controllers */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -178,8 +201,8 @@
 		DD78C8482119A8C50042098F /* Tools */ = {
 			isa = PBXGroup;
 			children = (
-				DD78C8492119A8DB0042098F /* RuleMacros.h */,
 				DD78C8592119AA460042098F /* HeaderFile.h */,
+				DD78C8492119A8DB0042098F /* RuleMacros.h */,
 				DD78C84D2119A9B50042098F /* UIView+TYCViewController.h */,
 				DD78C84E2119A9B50042098F /* UIView+TYCViewController.m */,
 				DD78C84A2119A9AD0042098F /* UIViewExt.h */,
@@ -190,8 +213,65 @@
 				DD78C8532119A9F90042098F /* NSArray+Extension.m */,
 				DD78C8552119A9FA0042098F /* NSDictionary+Extension.h */,
 				DD78C8562119A9FA0042098F /* NSDictionary+Extension.m */,
+				DD78C870211A7DD70042098F /* UIImage+Extension.h */,
+				DD78C871211A7DD70042098F /* UIImage+Extension.m */,
 			);
 			path = Tools;
+			sourceTree = "<group>";
+		};
+		DD78C85A211A777A0042098F /* BaseClass */ = {
+			isa = PBXGroup;
+			children = (
+				DD78C874211A7E5E0042098F /* Views */,
+				DD78C873211A7E5A0042098F /* Controllers */,
+			);
+			path = BaseClass;
+			sourceTree = "<group>";
+		};
+		DD78C873211A7E5A0042098F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DD78C85B211A77F50042098F /* RootTabBarSecondViewController.h */,
+				DD78C85C211A77F50042098F /* RootTabBarSecondViewController.m */,
+				DD78C85E211A78530042098F /* BaseNavigationViewController.h */,
+				DD78C85F211A78530042098F /* BaseNavigationViewController.m */,
+				DD78C861211A78690042098F /* BaseViewController.h */,
+				DD78C862211A78690042098F /* BaseViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		DD78C874211A7E5E0042098F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DD78C864211A78990042098F /* CustomSecondTabBar.h */,
+				DD78C865211A78990042098F /* CustomSecondTabBar.m */,
+				DD78C867211A79D60042098F /* CustomSecondBarButton.h */,
+				DD78C868211A79D60042098F /* CustomSecondBarButton.m */,
+				DD78C86D211A7CCF0042098F /* NavigationBarView.h */,
+				DD78C86E211A7CCF0042098F /* NavigationBarView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DD78C875211A7E8D0042098F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DD78C83D2119A49E0042098F /* RootTabBarViewController.h */,
+				DD78C83E2119A49E0042098F /* RootTabBarViewController.m */,
+				DD78C8442119A81D0042098F /* BaseNavViewController.h */,
+				DD78C8452119A81D0042098F /* BaseNavViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		DD78C876211A7E900042098F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DD78C8402119A4B80042098F /* CustomTabBar.h */,
+				DD78C8412119A4B80042098F /* CustomTabBar.m */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -324,15 +404,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD78C86C211A7AA70042098F /* CenterViewController.m in Sources */,
 				DD78C84F2119A9B50042098F /* UIView+TYCViewController.m in Sources */,
 				DD78C84C2119A9AD0042098F /* UIViewExt.m in Sources */,
 				DD78C83F2119A49E0042098F /* RootTabBarViewController.m in Sources */,
 				DD78C8102119A41D0042098F /* ViewController.m in Sources */,
+				DD78C85D211A77F50042098F /* RootTabBarSecondViewController.m in Sources */,
+				DD78C866211A78990042098F /* CustomSecondTabBar.m in Sources */,
+				DD78C872211A7DD70042098F /* UIImage+Extension.m in Sources */,
+				DD78C863211A78690042098F /* BaseViewController.m in Sources */,
 				DD78C8522119A9ED0042098F /* UIColor+Hex.m in Sources */,
 				DD78C81B2119A4290042098F /* main.m in Sources */,
+				DD78C86F211A7CCF0042098F /* NavigationBarView.m in Sources */,
 				DD78C8572119A9FA0042098F /* NSArray+Extension.m in Sources */,
+				DD78C869211A79D60042098F /* CustomSecondBarButton.m in Sources */,
 				DD78C8422119A4B80042098F /* CustomTabBar.m in Sources */,
 				DD78C80D2119A41D0042098F /* AppDelegate.m in Sources */,
+				DD78C860211A78530042098F /* BaseNavigationViewController.m in Sources */,
 				DD78C8462119A81D0042098F /* BaseNavViewController.m in Sources */,
 				DD78C8582119A9FA0042098F /* NSDictionary+Extension.m in Sources */,
 			);
